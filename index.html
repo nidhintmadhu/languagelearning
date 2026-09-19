@@ -190,19 +190,31 @@
         });
     }
 
-    // 4. Look up workflow triggers on interaction
+    // 4. Look up workflow triggers on interaction (Using Live German -> English Translation API)
     function handleWordClick(originalWord) {
         selectedWordClean = originalWord.toLowerCase();
         document.getElementById('target-word').textContent = originalWord;
         
         const resultBox = document.getElementById('lookup-result');
-        resultBox.innerHTML = `Searching background layer for structural translations...`;
+        resultBox.innerHTML = `<em>Translating "${originalWord}" to English...</em>`;
         
-        // Dynamic translation hook fallback layer
-        fetch(`https://dictionaryapi.dev{selectedWordClean}`)
+        // Connects to the free MyMemory translation API layer for German to English
+        const apiUrl = `https://translated.net{encodeURIComponent(originalWord)}&langpair=de|en`;
+
+        fetch(apiUrl)
             .then(res => res.json())
-            .then(() => {
-                resultBox.innerHTML = `Word tracked. Select a color category to tag "<strong>${originalWord}</strong>" into your permanent profile storage memory.`;
+            .then(data => {
+                if (data.responseData && data.responseData.translatedText) {
+                    const translation = data.responseData.translatedText;
+                    resultBox.innerHTML = `
+                        <p><strong>English Translation:</strong> ${translation}</p>
+                        <p style="font-size: 0.85rem; color: #6c757d; margin-top: 10px;">
+                            Select a color category below to tag this word into your permanent learning memory.
+                        </p>
+                    `;
+                } else {
+                    resultBox.innerHTML = `Word tracked. Select a color category to tag "<strong>${originalWord}</strong>" into your profile.`;
+                }
             })
             .catch(() => {
                 resultBox.innerHTML = `Saved locally. Ready for tracking update rules.`;
@@ -210,6 +222,7 @@
 
         document.getElementById('word-drawer').classList.add('open');
     }
+
 
     // 5. Unique User Storage Pipeline configuration
     function updateWordProgress(statusState) {

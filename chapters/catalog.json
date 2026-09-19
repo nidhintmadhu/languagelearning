@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "title": "Kapitel 1",
+        "file": "chapter_1.json"
+    },
+    {
+        "id": 2,
+        "title": "KAPITEL 1",
+        "file": "chapter_2.json"
+    },
+    {
+        "id": 3,
+        "title": "1. Bitte machen Sie das Licht nicht an. Das Licht macht sich selbst",
+        "file": "chapter_3.json"
+    },
+    {
+        "id": 4,
+        "title": "3. Wandern Sie nicht im Gang. Gehen Sie.",
+        "file": "chapter_4.json"
+    },
+    {
+        "id": 5,
+        "title": "6. Die Post kommt nie. Bitte fragen Sie nicht nach der Post.",
+        "file": "chapter_5.json"
+    },
+    {
+        "id": 6,
+        "title": "KAPITEL 2",
+        "file": "chapter_6.json"
+    },
+    {
+        "id": 7,
+        "title": "KAPITEL 3",
+        "file": "chapter_7.json"
+    },
+    {
+        "id": 8,
+        "title": "KAPITEL 4",
+        "file": "chapter_8.json"
+    },
+    {
+        "id": 9,
+        "title": "KAPITEL 5",
+        "file": "chapter_9.json"
+    },
+    {
+        "id": 10,
+        "title": "KAPITEL 6",
+        "file": "chapter_10.json"
+    },
+    {
+        "id": 11,
+        "title": "KAPITEL 7",
+        "file": "chapter_11.json"
+    },
+    {
+        "id": 12,
+        "title": "KAPITEL 8",
+        "file": "chapter_12.json"
+    },
+    {
+        "id": 13,
+        "title": "KAPITEL 9",
+        "file": "chapter_13.json"
+    },
+    {
+        "id": 14,
+        "title": "KAPITEL 10",
+        "file": "chapter_14.json"
+    },
+    {
+        "id": 15,
+        "title": "KAPITEL 11",
+        "file": "chapter_15.json"
+    },
+    {
+        "id": 16,
+        "title": "KAPITEL 12",
+        "file": "chapter_16.json"
+    },
+    {
+        "id": 17,
+        "title": "KAPITEL 13",
+        "file": "chapter_17.json"
+    },
+    {
+        "id": 18,
+        "title": "KAPITEL 14",
+        "file": "chapter_18.json"
+    },
+    {
+        "id": 19,
+        "title": "KAPITEL 15",
+        "file": "chapter_19.json"
+    },
+    {
+        "id": 20,
+        "title": "1. eine Erinnerung, die man nicht verkaufen würde,",
+        "file": "chapter_20.json"
+    },
+    {
+        "id": 21,
+        "title": "KAPITEL 16",
+        "file": "chapter_21.json"
+    },
+    {
+        "id": 22,
+        "title": "KAPITEL 17",
+        "file": "chapter_22.json"
+    },
+    {
+        "id": 23,
+        "title": "KAPITEL 18",
+        "file": "chapter_23.json"
+    },
+    {
+        "id": 24,
+        "title": "KAPITEL 19",
+        "file": "chapter_24.json"
+    },
+    {
+        "id": 25,
+        "title": "KAPITEL 20",
+        "file": "chapter_25.json"
+    },
+    {
+        "id": 26,
+        "title": "KAPITEL 21",
+        "file": "chapter_26.json"
+    },
+    {
+        "id": 27,
+        "title": "KAPITEL 22",
+        "file": "chapter_27.json"
+    },
+    {
+        "id": 28,
+        "title": "KAPITEL 23",
+        "file": "chapter_28.json"
+    },
+    {
+        "id": 29,
+        "title": "KAPITEL 24",
+        "file": "chapter_29.json"
+    },
+    {
+        "id": 30,
+        "title": "KAPITEL 25",
+        "file": "chapter_30.json"
+    },
+    {
+        "id": 31,
+        "title": "KAPITEL 26",
+        "file": "chapter_31.json"
+    },
+    {
+        "id": 32,
+        "title": "KAPITEL 27",
+        "file": "chapter_32.json"
+    },
+    {
+        "id": 33,
+        "title": "KAPITEL 28",
+        "file": "chapter_33.json"
+    },
+    {
+        "id": 34,
+        "title": "KAPITEL 29",
+        "file": "chapter_34.json"
+    },
+    {
+        "id": 35,
+        "title": "KAPITEL 30",
+        "file": "chapter_35.json"
+    },
+    {
+        "id": 36,
+        "title": "KAPITEL 31",
+        "file": "chapter_36.json"
+    },
+    {
+        "id": 37,
+        "title": "KAPITEL 32",
+        "file": "chapter_37.json"
+    },
+    {
+        "id": 38,
+        "title": "KAPITEL 33",
+        "file": "chapter_38.json"
+    },
+    {
+        "id": 39,
+        "title": "KAPITEL 34",
+        "file": "chapter_39.json"
+    },
+    {
+        "id": 40,
+        "title": "KAPITEL 35",
+        "file": "chapter_40.json"
+    },
+    {
+        "id": 41,
+        "title": "KAPITEL 36",
+        "file": "chapter_41.json"
+    },
+    {
+        "id": 42,
+        "title": "KAPITEL 37",
+        "file": "chapter_42.json"
+    },
+    {
+        "id": 43,
+        "title": "KAPITEL 38",
+        "file": "chapter_43.json"
+    },
+    {
+        "id": 44,
+        "title": "KAPITEL 39",
+        "file": "chapter_44.json"
+    },
+    {
+        "id": 45,
+        "title": "KAPITEL 40",
+        "file": "chapter_45.json"
+    },
+    {
+        "id": 46,
+        "title": "KAPITEL 41",
+        "file": "chapter_46.json"
+    },
+    {
+        "id": 47,
+        "title": "KAPITEL 42",
+        "file": "chapter_47.json"
+    },
+    {
+        "id": 48,
+        "title": "1. Wir klopfen an.",
+        "file": "chapter_48.json"
+    },
+    {
+        "id": 49,
+        "title": "1. Papier unterschreiben.",
+        "file": "chapter_49.json"
+    },
+    {
+        "id": 50,
+        "title": "KAPITEL 43",
+        "file": "chapter_50.json"
+    },
+    {
+        "id": 51,
+        "title": "KAPITEL 44",
+        "file": "chapter_51.json"
+    },
+    {
+        "id": 52,
+        "title": "KAPITEL 45",
+        "file": "chapter_52.json"
+    },
+    {
+        "id": 53,
+        "title": "1. Wir klopfen an.",
+        "file": "chapter_53.json"
+    },
+    {
+        "id": 54,
+        "title": "KAPITEL 46",
+        "file": "chapter_54.json"
+    }
+]
